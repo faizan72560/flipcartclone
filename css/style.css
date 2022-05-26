@@ -1,0 +1,110 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+header{
+    background-color: blue;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0px 70px;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{ 
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    margin: 19px;
+}
+.search input{
+    height: 23px;
+    width: 300px;
+}
+.search button{
+    height: 23px;
+    width: 50px;
+    margin: 1px;
+}
+
+
+.slider img{ 
+    width: 99vw;
+    height: 100vh;
+}
+
+.slider { 
+    margin: 0 50px auto;
+    overflow: hidden;
+}
+.card{
+    /* display: flex; */
+}
+.my-1{
+    margin: 5px 5px 5px 5px;
+}
+.my-2{
+    margin: 10px 10px 10px  10px ;
+}
+.cards{
+    margin: 50px 30px 40px 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-item{
+    margin: 10px;
+
+}
+.lines{
+    text-align: center;
+}
+
+
+footer{
+    height: 50px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-all-center{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:900px)
+{
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards{
+        margin: 88px ;
+    }
+}  
